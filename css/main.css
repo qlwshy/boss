@@ -3,6 +3,9 @@ body{
     font-family: Arial,Helvetica,'Microsoft Yahei';
     -webkit-font-smoothing: antialiased;
 }
+[v-cloak]{
+    display: none !important;
+}
 .flex{
     display: flex;
     justify-content: space-between;
