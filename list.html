@@ -67,6 +67,13 @@
                 }).then(function(data){
                     vm.filters = data;
                 });
+                fetch('https://qlwshy.github.io/boss/api/jobs.json')
+                .then(function(res){
+                    return res.json();
+                }).then(function(data){
+                    vm.jobs = data;
+                });
+
            }
         });
     </script>
