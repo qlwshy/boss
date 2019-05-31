@@ -6,7 +6,7 @@
     "labels": ["javascript","vue.js","react"],
     "user": {
         "id": 1,
-        "avatar": "../img/avatar.jpg",
+        "avatar": "./img/avatar.jpg",
         "name": "刘先生",
         "titles": ["百度","前端开发工程师"]
     },
@@ -16,7 +16,7 @@
         "name": "百度",
         "full_name": "北京百度网讯科技有限公司",
         "tags": ["互联网","已上市","10000人以上"],
-        "logo": "../img/baidu.jpg",
+        "logo": "./img/baidu.jpg",
         "body": "百度（纳斯达克：BIDU），全球最大的中文搜索引擎、最大的中文网站。1999年底,身在美国硅谷的李彦宏看到了中国互联网及中文搜索引擎服务的巨大发展潜力，抱着技术改变世界的梦想，他毅然辞掉硅谷的高薪工作，携搜索引擎专利技术，于 2000年1月1日在中关村创建了百度公司。",
         "props": {
             "法人代表": "梁志祥",
@@ -27,40 +27,40 @@
         },
         "map": {
             "desc": "北京海淀区百度科技园二号楼",
-            "map_src": "../img/map.png"
+            "map_src": "./img/map.png"
         }
     },
     "jobs": [
         {
-            "logo": "../img/a83fc908c1bcb5510b35da79ebc74a9286b6a9e98aa8f150dd17e2f5328c5178_s.jpg",
+            "logo": "./img/a83fc908c1bcb5510b35da79ebc74a9286b6a9e98aa8f150dd17e2f5328c5178_s.jpg",
             "title": "Web前端",
             "salary": "20-30k",
             "company": "百度",
             "tags": ["北京","3-5年","本科"]
         },
         {
-            "logo": "../img/qichezhijia_logo.jpg",
+            "logo": "./img/qichezhijia_logo.jpg",
             "title": "Web前端",
             "salary": "30-50k",
             "company": "汽车之家",
             "tags": ["北京","4-6年","专科"]
         },
         {
-            "logo": "../img/vipkid_logo.jpg",
+            "logo": "./img/vipkid_logo.jpg",
             "title": "Web前端",
             "salary": "20-30k",
             "company": "VIPKID",
             "tags": ["北京","1-3年","专科"]
         },
         {
-            "logo": "../img/didi_logo.jpg",
+            "logo": "./img/didi_logo.jpg",
             "title": "Web前端",
             "salary": "40-50k",
             "company": "滴滴",
             "tags": ["北京","1-3年","本科"]
         },
         {
-            "logo": "../img/boss_logo.jpg",
+            "logo": "./img/boss_logo.jpg",
             "title": "Web前端",
             "salary": "15-30k",
             "company": "Boss直聘",
