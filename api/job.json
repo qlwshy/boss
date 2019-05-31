@@ -1,0 +1,85 @@
+{
+    "title": "Web前端",
+    "salary": "20-30k",
+    "publish": "2018-12-13",
+    "tags": ["北京","3-5年","本科"],
+    "labels": ["javascript","vue.js","react"],
+    "user": {
+        "id": 1,
+        "avatar": "../img/avatar.jpg",
+        "name": "刘先生",
+        "titles": ["百度","前端开发工程师"]
+    },
+    "body": "工作职责：<br>-负责百家号作者生态产品及内部平台<br>-Web前端的功能设计、开发和优化<br>-Web前台用户体验的设计和实现<br>-前沿技术研究和新技术调研<br>职位要求：<br>-本科及以上学历，计算机相关专业<br>-精通JavaScript、Ajax等Web开发技术，有良好的程序设计和架构能力<br>-精通html/xhtml、css等网页制作技术，熟悉页面架构和布局<br>-熟悉PHP程序开发<br>-熟悉web标准，对表现与数据分离，html语义化等有深刻理解<br>-对web技术钻研有强烈兴趣，有良好的学习能力和强烈的进取心<br>-学习能力强，强烈的责任心,具有较强的沟通能力及团队合作精神<br>-有较强的产品理解，能从技术角度推动产品优化<br>-思维缜密、思路清晰，较好的逻辑分析能力",
+    "team": ["公司氛围好","不打卡","领导nice"],
+    "company": {
+        "name": "百度",
+        "full_name": "北京百度网讯科技有限公司",
+        "tags": ["互联网","已上市","10000人以上"],
+        "logo": "../img/baidu.jpg",
+        "body": "百度（纳斯达克：BIDU），全球最大的中文搜索引擎、最大的中文网站。1999年底,身在美国硅谷的李彦宏看到了中国互联网及中文搜索引擎服务的巨大发展潜力，抱着技术改变世界的梦想，他毅然辞掉硅谷的高薪工作，携搜索引擎专利技术，于 2000年1月1日在中关村创建了百度公司。",
+        "props": {
+            "法人代表": "梁志祥",
+            "注册资本": "642128万元",
+            "成立时间": "2001-06-05",
+            "经营状态": "开业",
+            "数据来源": "企查查"
+        },
+        "map": {
+            "desc": "北京海淀区百度科技园二号楼",
+            "map_src": "../img/map.png"
+        }
+    },
+    "jobs": [
+        {
+            "logo": "../img/a83fc908c1bcb5510b35da79ebc74a9286b6a9e98aa8f150dd17e2f5328c5178_s.jpg",
+            "title": "Web前端",
+            "salary": "20-30k",
+            "company": "百度",
+            "tags": ["北京","3-5年","本科"]
+        },
+        {
+            "logo": "../img/qichezhijia_logo.jpg",
+            "title": "Web前端",
+            "salary": "30-50k",
+            "company": "汽车之家",
+            "tags": ["北京","4-6年","专科"]
+        },
+        {
+            "logo": "../img/vipkid_logo.jpg",
+            "title": "Web前端",
+            "salary": "20-30k",
+            "company": "VIPKID",
+            "tags": ["北京","1-3年","专科"]
+        },
+        {
+            "logo": "../img/didi_logo.jpg",
+            "title": "Web前端",
+            "salary": "40-50k",
+            "company": "滴滴",
+            "tags": ["北京","1-3年","本科"]
+        },
+        {
+            "logo": "../img/boss_logo.jpg",
+            "title": "Web前端",
+            "salary": "15-30k",
+            "company": "Boss直聘",
+            "tags": ["北京","1-3年","本科"]
+        }
+    ],
+    "companies": [
+        {"id": 1,"name": "会找房"},
+        {"id": 2,"name": "跨考教育"},
+        {"id": 3,"name": "埃森哲"},
+        {"id": 4,"name": "链家"},
+        {"id": 5,"name": "金笛软件"},
+        {"id": 6,"name": "文思海辉"},
+        {"id": 7,"name": "TDB AIR"}
+    ],
+    "paths": [
+        {"title": "首页","url": "/"},
+        {"title": "北京招聘·web前端招聘","url": "/"},
+        {"title": "北京web前端招聘","url": "/"},
+        {"title": "百度web前端招聘","url": "/"}
+    ]
+}

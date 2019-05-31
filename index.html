@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BOSS直聘-互联网招聘神器！</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.png">
+</head>
+<body>
+    <div class="container" id='app'>
+        <div class="home-header">
+            <img src="./img/home-search-text.png" alt="">
+            <form action="">
+                <input type="text" name="" id="" placeholder="搜索职位/公司">
+                <button>搜索</button>
+            </form>
+        </div>
+        <div class="home-categories">
+            <dl v-for="item in categories">
+                <dt>
+                    <img :src="item.icon" alt="">
+                    <div>{{item.name}}</div>
+                </dt>
+                <dd>
+                    <a href="" class="tag" v-for="tag in item.tags">{{tag}}</a>
+                </dd>
+            </dl>
+        </div>
+        <div class="home-footer">
+            <p v-for="tip in tips">{{tip}}</p>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js"></script>
+    <script>
+        const vm = new Vue({
+            el: '#app',
+            data: {
+                categories: [],
+                tips: ["违法和不良信息举报邮箱：jubao@kanzhun.com","企业服务热线和举报投诉：400 065 5799"]
+            },
+            created: function(){
+                fetch('https://qlwshy.github.io/-boss-/api/index.json')
+                .then(function(res){
+                    return res.json();
+                }).then(function(data){
+                    vm.categories = data;
+                });
+            }
+        });
+    </script>
+</body>
+</html>

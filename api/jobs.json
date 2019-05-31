@@ -1,0 +1,52 @@
+[
+    {
+        "logo": "./img/a83fc908c1bcb5510b35da79ebc74a9286b6a9e98aa8f150dd17e2f5328c5178_s.jpg",
+        "title": "Web前端",
+        "salary": "20-30k",
+        "company": "百度",
+        "tags": ["北京","3-5年","本科"]
+    },
+    {
+        "logo": "./img/qichezhijia_logo.jpg",
+        "title": "Web前端",
+        "salary": "30-50k",
+        "company": "汽车之家",
+        "tags": ["北京","4-6年","专科"]
+    },
+    {
+        "logo": "./img/vipkid_logo.jpg",
+        "title": "Web前端",
+        "salary": "20-30k",
+        "company": "VIPKID",
+        "tags": ["北京","1-3年","专科"]
+    },
+    {
+        "logo": "./img/didi_logo.jpg",
+        "title": "Web前端",
+        "salary": "40-50k",
+        "company": "滴滴",
+        "tags": ["北京","1-3年","本科"]
+    },
+    {
+        "logo": "./img/boss_logo.jpg",
+        "title": "Web前端",
+        "salary": "15-30k",
+        "company": "Boss直聘",
+        "tags": ["北京","1-3年","本科"]
+    },
+    {
+        "logo": "./img/mayi_logo.jpg",
+        "title": "Web前端",
+        "salary": "20-40k",
+        "company": "蚂蚁金服",
+        "tags": ["北京","5-8年","本科"]
+    },
+    {
+        "logo": "./img/shuidichou_logo.jpg",
+        "title": "Web前端",
+        "salary": "20-40k",
+        "company": "水滴筹",
+        "tags": ["北京","3-6年","本科"]
+    }
+
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "icon": "./img/technology.png",
+        "name": "技术",
+        "tags": ["Java","PHP","Web前端","数据挖掘","C++","IOS","Android","Python"]
+    },
+    {
+        "icon": "./img/product.png",
+        "name": "产品",  
+        "tags": ["产品经理","产品助理","网页产品经理","数据产品经理"]
+    },
+    {
+        "icon": "./img/designer.png",
+        "name": "设计",  
+        "tags": ["UI设计师","平面设计师","交互设计师","设计总监"]
+    }
+]
